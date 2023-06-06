@@ -12,9 +12,9 @@ for(let i=0; i<countries.length;i++){
 // onClick shows alert
 let button = document.querySelector("#mySelect");
 //let inTarget = document.querySelector("#myList");
-button.addEventListener("click", function() {
+button.addEventListener("change", function() {
 	//your code here
-	alert("hi")
+	alert(countries[document.getElementById("mySelect").value]);
 	//console.log(inTarget.children); 
 
 });
