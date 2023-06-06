@@ -14,7 +14,7 @@ let button = document.querySelector("#mySelect");
 //let inTarget = document.querySelector("#myList");
 button.addEventListener("change", function() {
 	//your code here
-	alert(countries[document.getElementById("mySelect").value]);
+	alert(countries[button.value]);
 	//console.log(inTarget.children); 
 
 });
